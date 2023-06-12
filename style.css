@@ -1,3 +1,8 @@
+body {
+  background-image: url(Images/TrafficBackground.jpg);
+  background-size: cover;
+}
+
 .container {
   max-width: 400px;
   margin: 0 auto;
@@ -33,4 +38,9 @@ button {
 #resultMessage {
   margin-top: 20px;
   font-weight: bold;
+}
+
+button:hover {
+  background-color: #3e8e41;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
